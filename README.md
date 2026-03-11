@@ -36,6 +36,82 @@ pnpm dev
 
 The site will be available at `http://localhost:3000`
 
+<section style="max-width:1000px;margin:auto;padding:40px;font-family:Arial, sans-serif;">
+
+<h2 style="text-align:center;color:#2563eb;">🚀 Steps in Deep Learning</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:30px;">
+
+<div style="background:white;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+<h3>1️⃣ Data Collection</h3>
+<p>
+Collect large datasets from sources such as public datasets, APIs,
+web scraping, sensors, or databases. High quality data improves
+model performance.
+</p>
+</div>
+
+<div style="background:white;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+<h3>2️⃣ Data Preprocessing</h3>
+<p>
+Clean and prepare the data by removing missing values, normalizing
+features, and converting text or images into numerical format
+that neural networks can process.
+</p>
+</div>
+
+<div style="background:white;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+<h3>3️⃣ Dataset Splitting</h3>
+<p>
+Split the dataset into training, validation, and testing sets.
+This helps in evaluating model performance properly.
+</p>
+</div>
+
+<div style="background:white;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+<h3>4️⃣ Model Building</h3>
+<p>
+Design the neural network architecture including input layer,
+hidden layers, activation functions, and output layer.
+</p>
+</div>
+
+<div style="background:white;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+<h3>5️⃣ Model Training</h3>
+<p>
+Train the model using the training dataset. The network learns
+patterns using forward propagation and backpropagation algorithms.
+</p>
+</div>
+
+<div style="background:white;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+<h3>6️⃣ Model Evaluation</h3>
+<p>
+Evaluate the model using metrics such as accuracy, precision,
+recall, and F1-score on the test dataset.
+</p>
+</div>
+
+<div style="background:white;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+<h3>7️⃣ Hyperparameter Tuning</h3>
+<p>
+Improve performance by adjusting learning rate, batch size,
+number of layers, and other parameters.
+</p>
+</div>
+
+<div style="background:white;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+<h3>8️⃣ Model Deployment</h3>
+<p>
+Deploy the trained model into real-world applications such as
+web apps, APIs, mobile apps, or cloud platforms.
+</p>
+</div>
+
+</div>
+
+</section>
+
 ## 📖 The Deep Learning Workflow
 
 ### 1. Data Acquisition
