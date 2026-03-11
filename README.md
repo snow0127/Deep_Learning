@@ -1,198 +1,192 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Deep Learning Overview</title>
+# Deep Learning: An Introduction
 
-<style>
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin:0;
-    background:#f5f7fa;
-    color:#333;
-}
+A comprehensive educational website explaining the fundamentals of deep learning, including its definition, the core workflow, and key concepts. Built with React, Tailwind CSS, and modern web technologies.
 
-header{
-    background:#0f172a;
-    color:white;
-    text-align:center;
-    padding:30px;
-}
+## 📚 Overview
 
-header h1{
-    margin:0;
-    font-size:40px;
-}
+This project provides an accessible introduction to deep learning for beginners and intermediate learners. It covers:
 
-.container{
-    max-width:1000px;
-    margin:auto;
-    padding:30px;
-}
+- **What is Deep Learning?** - Definition and relationship to AI and Machine Learning
+- **The 6-Step Workflow** - Complete process from data acquisition to deployment
+- **Key Concepts** - Neural networks, hidden layers, backpropagation, and activation functions
+- **Real-World Applications** - Computer vision, NLP, and autonomous systems
 
-.section{
-    background:white;
-    margin-bottom:25px;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 4px 12px rgba(0,0,0,0.08);
-}
+![Deep Learning Overview](https://files.manuscdn.com/user_upload_by_module/session_file/310519663408336893/mezmkuLxnFjTyiVG.png)
 
-.section h2{
-    color:#0f172a;
-}
+## 🚀 Quick Start
 
-img{
-    width:100%;
-    border-radius:8px;
-    margin-top:15px;
-}
+### Prerequisites
 
-ul{
-    line-height:1.8;
-}
+- Node.js 18+ 
+- pnpm (recommended) or npm
 
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-}
+### Installation
 
-table, th, td{
-    border:1px solid #ddd;
-}
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/deep-learning-intro-page.git
+cd deep-learning-intro-page
 
-th, td{
-    padding:10px;
-    text-align:left;
-}
+# Install dependencies
+pnpm install
 
-th{
-    background:#e2e8f0;
-}
+# Start development server
+pnpm dev
+```
 
-footer{
-    text-align:center;
-    padding:20px;
-    background:#0f172a;
-    color:white;
-}
-</style>
+The site will be available at `http://localhost:3000`
 
-</head>
+## 📖 The Deep Learning Workflow
 
-<body>
+### 1. Data Acquisition
+Gather labeled data from various sources including public datasets, APIs, web scraping, or crowd-sourced annotations.
 
-<header>
-<h1>Deep Learning</h1>
-<p>An Introduction to Deep Learning and Neural Networks</p>
-</header>
+### 2. Data Preprocessing
+Clean data, handle missing values, scale features, and convert categorical data and text to numerical formats.
 
-<div class="container">
+### 3. Dataset Splitting
+Divide data into training (70%), validation (15%), and test (15%) sets to ensure proper model evaluation.
 
-<div class="section">
-<h2>What is Deep Learning?</h2>
-<p>
-Deep Learning is a subset of Machine Learning that uses Artificial Neural Networks with multiple layers
-to learn patterns from large datasets. It is inspired by the way the human brain processes information.
-</p>
+### 4. Model Building & Training
+Design neural network architecture and train the model on the training dataset using backpropagation.
 
-<p>
-Deep learning enables computers to perform complex tasks such as image recognition, speech recognition,
-language translation, and autonomous driving.
-</p>
-</div>
+### 5. Model Evaluation
+Assess model performance on validation data using metrics like accuracy, precision, recall, and F1-score.
 
-<div class="section">
-<h2>Neural Network Structure</h2>
+### 6. Hyperparameter Tuning
+Optimize learning rate, batch size, and other parameters to improve model performance.
 
-<ul>
-<li><b>Input Layer</b> – Receives raw data such as images, text, or audio</li>
-<li><b>Hidden Layers</b> – Extract patterns and features</li>
-<li><b>Output Layer</b> – Produces the final prediction</li>
-</ul>
+![Deep Learning Training Process](https://files.manuscdn.com/user_upload_by_module/session_file/310519663408336893/oGbZpsBGyWZKeRCO.jpeg)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Artificial_neural_network.svg">
+## 🎯 Key Concepts
 
-</div>
+### Neural Networks
+Computational models inspired by biological neurons with interconnected layers. The foundation of deep learning.
 
-<div class="section">
-<h2>Deep Learning Architecture</h2>
+![Neural Network Architecture](https://files.manuscdn.com/user_upload_by_module/session_file/310519663408336893/ZnOgzfVUoQDDDQgw.png)
 
-<p>
-Deep neural networks contain many hidden layers that allow them to learn complex patterns.
-</p>
+### Hidden Layers
+Intermediate layers between input and output that enable the model to learn complex patterns and representations from data.
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*BHouR6w5e0jYq1hX2UjsLA.png">
+### Backpropagation
+Algorithm for training networks by calculating gradients and updating weights to minimize loss function during training.
 
-</div>
+### Activation Functions
+Mathematical functions that introduce non-linearity, allowing networks to learn complex relationships and patterns.
 
-<div class="section">
-<h2>Key Components</h2>
+![AI and Deep Learning Hierarchy](https://files.manuscdn.com/user_upload_by_module/session_file/310519663408336893/nRayeSRGSOhXgYfP.png)
 
-<ul>
-<li>Neural Networks</li>
-<li>Activation Functions (ReLU, Sigmoid, Tanh)</li>
-<li>Backpropagation</li>
-<li>Loss Functions</li>
-</ul>
+## 💻 Technology Stack
 
-</div>
+- **Frontend**: React 19 with TypeScript
+- **Styling**: Tailwind CSS 4 with custom theme
+- **UI Components**: shadcn/ui
+- **Build Tool**: Vite
+- **Typography**: Plus Jakarta Sans + Merriweather fonts
+- **Icons**: Lucide React
 
-<div class="section">
-<h2>Types of Deep Learning Models</h2>
+![Neural Network Architecture Diagram](https://files.manuscdn.com/user_upload_by_module/session_file/310519663408336893/HbonUNdSFqlDqucz.png)
 
-<table>
-<tr>
-<th>Model</th>
-<th>Use Case</th>
-</tr>
+## 📁 Project Structure
 
-<tr>
-<td>CNN</td>
-<td>Image Recognition</td>
-</tr>
+```
+client/
+├── src/
+│   ├── pages/
+│   │   └── Home.tsx          # Main deep learning introduction page
+│   ├── components/           # Reusable UI components
+│   ├── App.tsx              # Main app component with routing
+│   ├── index.css            # Global styles and theme
+│   └── main.tsx             # React entry point
+├── public/                   # Static assets
+└── index.html               # HTML template
 
-<tr>
-<td>RNN</td>
-<td>Sequence Data</td>
-</tr>
+server/                       # Express server (static deployment)
+package.json                 # Dependencies and scripts
+```
 
-<tr>
-<td>LSTM</td>
-<td>Time Series</td>
-</tr>
+## 🎨 Design Features
 
-<tr>
-<td>Transformers</td>
-<td>Modern NLP Models</td>
-</tr>
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
+- **Modern UI** - Clean, professional interface with gradient backgrounds
+- **Accessibility** - Semantic HTML and keyboard navigation support
+- **Interactive Elements** - Hover effects, smooth transitions, and visual feedback
+- **Color Scheme** - Blue accent colors with light background for optimal readability
 
-</table>
+## 📦 Available Scripts
 
-</div>
+```bash
+# Development
+pnpm dev          # Start dev server with hot reload
 
-<div class="section">
-<h2>Applications</h2>
+# Production
+pnpm build        # Build for production
+pnpm preview      # Preview production build locally
+pnpm start        # Start production server
 
-<ul>
-<li>Image Recognition</li>
-<li>Speech Recognition</li>
-<li>Language Translation</li>
-<li>Self Driving Cars</li>
-<li>Medical Diagnosis</li>
-</ul>
+# Code Quality
+pnpm check        # Run TypeScript type checking
+pnpm format       # Format code with Prettier
+```
 
-<img src="https://www.researchgate.net/publication/333530919/figure/fig1/AS:765042685390848@1559386170068/Applications-of-deep-learning-in-different-fields.png">
+## 🌐 Deployment
 
-</div>
+This project can be deployed to various platforms:
 
-</div>
+- **Vercel** - Recommended for static sites
+- **Netlify** - Easy deployment with CI/CD
+- **GitHub Pages** - Free hosting for static content
+- **AWS S3 + CloudFront** - Scalable solution
 
-<footer>
-<p>Deep Learning Overview</p>
-</footer>
+### Deploy to Vercel
 
-</body>
-</html>
+```bash
+npm install -g vercel
+vercel
+```
+
+### Deploy to Netlify
+
+```bash
+npm install -g netlify-cli
+netlify deploy
+```
+
+## 📚 Learning Resources
+
+### Recommended Tools & Frameworks
+- [TensorFlow](https://www.tensorflow.org/) - End-to-end machine learning platform
+- [PyTorch](https://pytorch.org/) - Deep learning framework
+- [Keras](https://keras.io/) - High-level neural networks API
+
+### Datasets
+- [Kaggle](https://www.kaggle.com/) - Thousands of public datasets
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/) - Classic datasets
+- [ImageNet](https://www.image-net.org/) - Large-scale visual database
+
+### Further Reading
+- [Deep Learning Book](https://www.deeplearningbook.org/) - Comprehensive textbook
+- [Fast.ai](https://www.fast.ai/) - Practical deep learning course
+- [Stanford CS231n](http://cs231n.stanford.edu/) - Convolutional neural networks
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 🙏 Acknowledgments
+
+- Built with [React](https://react.dev/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Icons from [Lucide React](https://lucide.dev/)
+- Images sourced from Google Images
+
+---
+
+**Happy Learning!** 🚀 Start your deep learning journey today.
